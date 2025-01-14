@@ -21,3 +21,6 @@ funciones_uno.dart
     - Void VS Type Methods
     - Flechas declarativas (=>)
 
+funciones_dos.dart
+    - Uso del required en parametros de Funciones
+    - Otra opciones de Opcional en funcionesn({})
