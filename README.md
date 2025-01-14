@@ -32,4 +32,5 @@ clases.dart
     - Usan constructores, un constructor es la funcion como mandas llamar a tu clase
     - Tienen propuedades, que a diferencia de los argumentos, es como si fuera una variable
     - Muchon de POO, basicamente, una clase es un molde, que tiene propiedades (Variables) y a su vez, estas tienen constructores, que son "maneras de llamar a tu clase" (Funciones), el constructor debe tener el mismo nombre de la clase, para ser considerado un constructor, de otra manera, seria una funciuon.
-    
+    - @Override sobreescribe cosas sin que de un warning 
+    - Constructors y sus tipos de interaccions con MAPS (EJemplo Citizen)
