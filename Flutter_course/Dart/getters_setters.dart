@@ -1,9 +1,8 @@
 void main() {
   //llamamos a la clase y creamos el objeto
-  final mySquare = Square(side: 10); 
+  final mySquare = Square(side: -10); 
   
-  //
-  mySquare.side = 5;
+  //mySquare.side = 5;
   
   //Imprimimos el objeto
   print('area: ${mySquare.area}');
@@ -18,7 +17,10 @@ class Square{
   
   //Constructor
   Square({ required double side})
-    : _side = side;
+    //Vamos a ver los asserts. esto es una comprobacion previa a que truene , solo se ejecutan en debug, en produccion se ignoran
+    //este assert lo que hace es validar antes de todo
+    : assert (side >= 0),
+      _side = side;
   
   //propiedad que se hara privada (getter)
    double get area{
